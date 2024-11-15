@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #0066cc;
+}
+
+.navbar {
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    padding: 0 20px;
+    box-sizing: border-box;
+    
+}
+
+.navbar a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 20px;
+}
+
+.navbar .nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+h1{
+    text-align: center;
+    color: #0066cc;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background: #333;;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #302f2f;
+    color: #b3b3b3;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-content h3 {
+    color: #0099ff;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.footer-content p {
+    color: #7e7e7e;
+    margin-bottom: 20px;
+}
+
+.footer-content a {
+    color: #0099ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: #0059b3;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-media li a {
+    color: #0099ff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.social-media li a:hover {
+    color: #0059b3;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery with Detail Button</title>
+    <link rel="stylesheet" href="Guru1.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="navbar-logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+    <ul class="navbar-menu">
+        <li><a href="HOME.HTML">Home</a></li>
+        <li><a href="Guru.html">Guru</a></li>
+        <li><a href="projek.html">Kelas</a></li>
+        <li><a href="login.html">Logout</a></li>
+    </ul>
+</nav>
+
+<!-- Gallery Section -->
+<section class="gallery-section">
+    <div class="gallery-header">
+        <h1>Detail Guru</h1>
+        <p>Teknik Instalasi Tenaga Listrik</p>
+    </div>
+    <div class="gallery">
+        <!-- Guru 1 -->
+        <div class="photo-card">
+            <img src="Bu Dharma.jpg" alt="Photo 1">
+            <button class="details-btn" onclick="toggleDescription(1)">
+                <i class="fas fa-info-circle"></i> Detail
+            </button>
+            <div class="description-overlay" id="desc-1">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="toggleDescription(1)">&times;</span>
+                    <p><strong>Nama:</strong> I Gusti Made Dharmayanthi, S.T.</p>
+                    <p><strong>TTL:</strong> 27-Maret-1987</p>
+                    <p><strong>Asal:</strong>Tabanan</p>    
+                    <p><strong>Mapel:</strong> Teknik Ketenagalistrikan</p>
+                    <p><strong>Tempat Tinggal:</strong> Jl Gandapura I G No 3</p>
+                    <p><strong>Umur:</strong>37</p>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Guru 2 -->
+        <div class="photo-card">
+            <img src="PAk Doni.jpg" alt="Photo 2">
+            <button class="details-btn" onclick="toggleDescription(2)">
+                <i class="fas fa-info-circle"></i> Detail
+            </button>
+            <div class="description-overlay" id="desc-2">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="toggleDescription(2)">&times;</span>
+                    <p><strong>Nama:</strong> I Made Doni Herlambang S.Pd.</p>
+                    <p><strong>TTL:</strong> 15-Agustus-96</p>
+                    <p><strong>Asal:</strong> Tabanan</p>
+                    <p><strong>Mapel:</strong> Teknik Ketenagalistrikan</p>
+                    <p><strong>Tempat Tinggal:</strong> Petiga, Marga Tabanan</p>
+                    <p><strong>Umur:</strong> 28</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Guru 3 -->
+        <div class="photo-card">
+            <img src="Bu Ayu.jpg" alt="Photo 3">
+            <button class="details-btn" onclick="toggleDescription(3)">
+                <i class="fas fa-info-circle"></i> Detail
+            </button>
+            <div class="description-overlay" id="desc-3">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="toggleDescription(3)">&times;</span>
+                    <p><strong>Nama:</strong> Ni Komang Ayu Sendari</p>
+                    <p><strong>TTL:</strong> Payangan, 18 November 1998</p>
+                    <p><strong>Mapel:</strong> Instalasi penerangan listrik</p>
+                    <p><strong>Asal:</strong> Desa Payangan, Kec Pekutatan, Jembrana</p>
+                    <p><strong>Tempat Tinggal:</strong> Br Badung, Gulingan, Mengwi</p>
+                    <p><strong>Umur:</strong> 26</p>
+                </div>
+            </div>
+        </div>
+       
+        <!-- Guru 4 -->
+        <div class="photo-card">
+            <img src="pakdedy.jpg" alt="Photo 4">
+            <button class="details-btn" onclick="toggleDescription(4)">
+                <i class="fas fa-info-circle"></i> Detail
+            </button>
+            <div class="description-overlay" id="desc-4">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="toggleDescription(4)">&times;</span>
+                    <p><strong>Nama:</strong> Made Deddy Darmawan S.Pd. M.Pd</p>
+                    <p><strong>TTL:</strong> Denpasar, 29 Mei 1993</p>
+                    <p><strong>Mapel:</strong> Perbaikan Peralatan Listrik</p>
+                    <p><strong>Asal:</strong> Kota Denpasar</p>
+                    <p><strong>Tempat Tinggal:</strong> Br. Betngandang Desa Sanur Kauh</p>
+                    <p><strong>Umur:</strong> 31</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <h3>Tentang Kami</h3>
+        <p>SMK Negeri 1 Denpasar adalah sekolah yang berfokus pada pendidikan kejuruan untuk mempersiapkan siswa dalam dunia kerja dan teknologi.</p>
+        <h3>Email Kami</h3>
+        <p>Email: <a href="mailto:info@smkn1denpasar.sch.id">info@smkn1denpasar.sch.id</a></p>
+        <h3>Ikuti Kami di Media Sosial</h3>
+        <ul class="social-media">
+            <li><a href="https://instagram.com/smkn1denpasar" target="_blank">Instagram</a></li>
+            <li><a href="https://youtube.com/smkn1denpasar" target="_blank">YouTube</a></li>
+            <li><a href="https://tiktok.com/@smkn1denpasar" target="_blank">TikTok</a></li>
+            <li><a href="https://facebook.com/smkn1denpasar" target="_blank">Facebook</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="Guru2.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
